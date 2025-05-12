@@ -6,7 +6,7 @@ if TYPE_CHECKING:
     from room import Room
 
 class Hotel:
-    def __init__(self, name: str, st: int):
+    def __init__(self, name: str, stars: int):
         self._rooms: list[Room] = []
         self._name = name
-        self._stars = st
+        self._stars = stars
